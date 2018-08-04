@@ -14,6 +14,11 @@
 		4D97C7A720F2C95F00DC9526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D97C7A520F2C95F00DC9526 /* LaunchScreen.storyboard */; };
 		4D97C7B220F2C96100DC9526 /* sensor_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C7B120F2C96100DC9526 /* sensor_testTests.swift */; };
 		4D97C7BD20F2C96200DC9526 /* sensor_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C7BC20F2C96200DC9526 /* sensor_testUITests.swift */; };
+		4D97C7CB20F2CB5C00DC9526 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C7CA20F2CB5C00DC9526 /* ViewControllerA.swift */; };
+		4D97C7CD20F2CD3800DC9526 /* sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C7CC20F2CD3800DC9526 /* sensor.swift */; };
+		6CA8D92CAC99E97CD43A3251 /* Pods_sensor_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D453F74283554F0D804E39 /* Pods_sensor_testUITests.framework */; };
+		ECAA19A28BF64BF223C1A3AD /* Pods_sensor_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D168C241AF080A7A77B41088 /* Pods_sensor_testTests.framework */; };
+		F86183ED4A9A3397D5294AD4 /* Pods_sensor_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA47CB3A1DBB3DF21A4A4A63 /* Pods_sensor_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010FD2C2090D846828756964 /* Pods-sensor_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensor_testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sensor_testTests/Pods-sensor_testTests.release.xcconfig"; sourceTree = "<group>"; };
+		29ED1D554B58BD8C8A494990 /* Pods-sensor_testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensor_testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sensor_testUITests/Pods-sensor_testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		402E7BC405F758C78045392B /* Pods-sensor_testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensor_testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sensor_testUITests/Pods-sensor_testUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4D97C79920F2C94B00DC9526 /* sensor_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sensor_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97C79C20F2C94B00DC9526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D97C79E20F2C94B00DC9526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		4D97C7B820F2C96200DC9526 /* sensor_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sensor_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97C7BC20F2C96200DC9526 /* sensor_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensor_testUITests.swift; sourceTree = "<group>"; };
 		4D97C7BE20F2C96200DC9526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D97C7CA20F2CB5C00DC9526 /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		4D97C7CC20F2CD3800DC9526 /* sensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensor.swift; sourceTree = "<group>"; };
+		72D453F74283554F0D804E39 /* Pods_sensor_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sensor_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EE751FE33743A84EA6D174 /* Pods-sensor_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensor_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-sensor_test/Pods-sensor_test.release.xcconfig"; sourceTree = "<group>"; };
+		97E057D6374C9797E5B704B2 /* Pods-sensor_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensor_testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sensor_testTests/Pods-sensor_testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A324395DDCCC07522F6B16A8 /* Pods-sensor_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensor_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sensor_test/Pods-sensor_test.debug.xcconfig"; sourceTree = "<group>"; };
+		BA47CB3A1DBB3DF21A4A4A63 /* Pods_sensor_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sensor_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D168C241AF080A7A77B41088 /* Pods_sensor_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sensor_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86183ED4A9A3397D5294AD4 /* Pods_sensor_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAA19A28BF64BF223C1A3AD /* Pods_sensor_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA8D92CAC99E97CD43A3251 /* Pods_sensor_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				4D97C7B020F2C96100DC9526 /* sensor_testTests */,
 				4D97C7BB20F2C96200DC9526 /* sensor_testUITests */,
 				4D97C79A20F2C94B00DC9526 /* Products */,
+				BC6B1DF1F3EBDC58DFEB5388 /* Pods */,
+				CCDFCB1F320AB856E2813599 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,8 @@
 			children = (
 				4D97C79C20F2C94B00DC9526 /* AppDelegate.swift */,
 				4D97C79E20F2C94B00DC9526 /* ViewController.swift */,
+				4D97C7CA20F2CB5C00DC9526 /* ViewControllerA.swift */,
+				4D97C7CC20F2CD3800DC9526 /* sensor.swift */,
 				4D97C7A020F2C94B00DC9526 /* Main.storyboard */,
 				4D97C7A320F2C95F00DC9526 /* Assets.xcassets */,
 				4D97C7A520F2C95F00DC9526 /* LaunchScreen.storyboard */,
@@ -125,6 +148,29 @@
 			path = sensor_testUITests;
 			sourceTree = "<group>";
 		};
+		BC6B1DF1F3EBDC58DFEB5388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A324395DDCCC07522F6B16A8 /* Pods-sensor_test.debug.xcconfig */,
+				87EE751FE33743A84EA6D174 /* Pods-sensor_test.release.xcconfig */,
+				97E057D6374C9797E5B704B2 /* Pods-sensor_testTests.debug.xcconfig */,
+				010FD2C2090D846828756964 /* Pods-sensor_testTests.release.xcconfig */,
+				29ED1D554B58BD8C8A494990 /* Pods-sensor_testUITests.debug.xcconfig */,
+				402E7BC405F758C78045392B /* Pods-sensor_testUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCDFCB1F320AB856E2813599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA47CB3A1DBB3DF21A4A4A63 /* Pods_sensor_test.framework */,
+				D168C241AF080A7A77B41088 /* Pods_sensor_testTests.framework */,
+				72D453F74283554F0D804E39 /* Pods_sensor_testUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D97C7C120F2C96200DC9526 /* Build configuration list for PBXNativeTarget "sensor_test" */;
 			buildPhases = (
+				33A346CD982FACB8E09B8F14 /* [CP] Check Pods Manifest.lock */,
 				4D97C79520F2C94B00DC9526 /* Sources */,
 				4D97C79620F2C94B00DC9526 /* Frameworks */,
 				4D97C79720F2C94B00DC9526 /* Resources */,
+				7DDE36D79D3B7F2E03200861 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D97C7C420F2C96200DC9526 /* Build configuration list for PBXNativeTarget "sensor_testTests" */;
 			buildPhases = (
+				63AD41A594B6A4BC925AED11 /* [CP] Check Pods Manifest.lock */,
 				4D97C7A920F2C96100DC9526 /* Sources */,
 				4D97C7AA20F2C96100DC9526 /* Frameworks */,
 				4D97C7AB20F2C96100DC9526 /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D97C7C720F2C96200DC9526 /* Build configuration list for PBXNativeTarget "sensor_testUITests" */;
 			buildPhases = (
+				01D8173CFD5E6A851E98A11C /* [CP] Check Pods Manifest.lock */,
 				4D97C7B420F2C96200DC9526 /* Sources */,
 				4D97C7B520F2C96200DC9526 /* Frameworks */,
 				4D97C7B620F2C96200DC9526 /* Resources */,
@@ -251,12 +301,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01D8173CFD5E6A851E98A11C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sensor_testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33A346CD982FACB8E09B8F14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sensor_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63AD41A594B6A4BC925AED11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sensor_testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DDE36D79D3B7F2E03200861 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sensor_test/Pods-sensor_test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sensor_test/Pods-sensor_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D97C79520F2C94B00DC9526 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D97C79F20F2C94B00DC9526 /* ViewController.swift in Sources */,
+				4D97C7CD20F2CD3800DC9526 /* sensor.swift in Sources */,
+				4D97C7CB20F2CB5C00DC9526 /* ViewControllerA.swift in Sources */,
 				4D97C79D20F2C94B00DC9526 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +474,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = F264HM4BV9;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -407,6 +535,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F264HM4BV9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -428,14 +557,12 @@
 		};
 		4D97C7C220F2C96200DC9526 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A324395DDCCC07522F6B16A8 /* Pods-sensor_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sensor_test/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kishimoto.sensor-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +572,12 @@
 		};
 		4D97C7C320F2C96200DC9526 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EE751FE33743A84EA6D174 /* Pods-sensor_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sensor_test/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kishimoto.sensor-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,16 +587,13 @@
 		};
 		4D97C7C520F2C96200DC9526 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E057D6374C9797E5B704B2 /* Pods-sensor_testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sensor_testTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kishimoto.sensor-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +604,13 @@
 		};
 		4D97C7C620F2C96200DC9526 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010FD2C2090D846828756964 /* Pods-sensor_testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sensor_testTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kishimoto.sensor-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +621,12 @@
 		};
 		4D97C7C820F2C96200DC9526 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ED1D554B58BD8C8A494990 /* Pods-sensor_testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sensor_testUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kishimoto.sensor-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,15 +637,12 @@
 		};
 		4D97C7C920F2C96200DC9526 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402E7BC405F758C78045392B /* Pods-sensor_testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = sensor_testUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kishimoto.sensor-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
